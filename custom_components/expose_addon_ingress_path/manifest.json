@@ -1,0 +1,13 @@
+{
+  "domain": "expose_addon_ingress_path",
+  "name": "Expose Add-on Ingress Path",
+  "codeowners": ["@felipecrs"],
+  "config_flow": true,
+  "dependencies": ["hassio"],
+  "documentation": "https://github.com/felipecrs/hass-expose-addon-ingress-path#readme",
+  "integration_type": "service",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/felipecrs/hass-expose-addon-ingress-path/issues",
+  "single_config_entry": true,
+  "version": "0.1.0"
+}

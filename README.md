@@ -8,6 +8,11 @@ _A Home Assistant integration to expose an API for retrieving the add-on ingress
 
 Useful for custom cards that needs to access some resource from the add-on ingress, without requiring to expose the add-on web interface to the local network or internet.
 
+```console
+$ curl -fsSL -H "Authorization: Bearer ${HA_TOKEN}" https://ha.example.com/api/hassio_addon_ingress_path/b35499aa_asterisk 
+/api/hassio_ingress/hynLB3XJgf6TbiMrb-MHqq6kJrm8Jt-sD1vnLaHn1Os
+```
+
 ## Installation
 
 Easiest install is via [HACS](https://hacs.xyz/):

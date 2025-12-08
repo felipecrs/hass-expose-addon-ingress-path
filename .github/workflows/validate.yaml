@@ -21,7 +21,7 @@ jobs:
       - uses: home-assistant/actions/hassfest@e5c98268a8eab18c0ddb35d2e920585f042ee1fe
 
       # https://github.com/hacs/action/commits/main
-      - uses: hacs/action@885037da508419fd08c13515967aec868dfdee2d
+      - uses: hacs/action@6f81caf1dd4cc0f615444dba4d4a3ceaa22db99c
         with:
           category: integration
           ignore: brands
